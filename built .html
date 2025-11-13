@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Javascript string and math functions</h2>
+    <h3>string functions</h3>
+    <hr>
+    <script>
+        let text = "Hello Javascript";
+        document.write("Original String: " + text + "<br>");
+        document.write("Length: " + text.length + "<br>");
+        document.write("Lowercase: " + text.toLocaleLowerCase() + "<br>");
+        document.write("Substring (0-5): " + text.substring(0, 5) + "<br>");
+        document.write("Replace 'Hello' with 'Hi': " + text.replace("Hello","Hi") + "<br>");   
+    </script>
+
+    <h3>Math functions</h3>
+    <script>
+        let num = 25.9;
+         document.write("Number: " + num + "<br>");
+         document.write("Square Root: " + Math.sqrt(num) + "<br>");
+         document.write("Round: " + Math.ceil(num) + "<br>");
+         document.write("Floor: " + Math.floor(num) + "<br>");  
+         document.write("Randam (0-1): " + Math.randam() + "<br>");
+         document.write("Power (2^3): " + Math.pow(2, 3) + "<br>");
+    </script>
+</body>
+</html>
